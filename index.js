@@ -48,7 +48,7 @@ app.get("/webhook", (req, res) => {
 app.get("/", (req, res) => {
   res.json({
     success: true,
-    info: "WhatsApp API v1.0.2 | V⦿iceflow | 2022",
+    info: "WhatsApp API 2022",
     status: "healthy",
     error: null,
   });
